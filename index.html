@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="page">
-        <div id="banner">
+        <div id="banner"> 
             <img src="images/delivery.gif" height="85" width="300" alt="img1">
         </div>
         <div id="navigation">
@@ -50,9 +50,9 @@
                                 <option>Black</option>
                             </select>
                         </td>
-                        <td>150.95</td>
-                        <td><input type="text"></td>
-                        <td>200</td>
+                        <td class="price">169.99</td>
+                        <td class="quantity"><input type="text"></td>
+                        <td female-total total></td>
                     </tr>
                     <tr>
                         <td><a href="male.html">Male Ski Jackets</a></td>
@@ -70,28 +70,26 @@
                                 <option>White</option>
                             </select>
                         </td>
-                        <td>180.95</td>
-                        <td><input type="text"></td>
-                        <td>400</td>
+                        <td class="price">199.99</td>
+                        <td class="quantity"><input type="text"></td>
+                        <td male-total total></td>
                     </tr>
                     <tr>
                         <td colspan="4">
-                            <span>Click to confirm and process your order</span>
+                            <span> Click to confirm and process your order </span>
                         </td>
                         <td>
-                            <input type="button" value="Total Price">
+                            <input type="button" value="Total Price" onclick="calculate()">
                         </td>
-                        <td>
-                            600
-                        </td>
+                        <td overall-total></td>
                     </tr>
                 </table>
             </form>
         </div>
         <div id="footer">
-            <p class="copyright">© 2024 Swegga Fashion – King20Legend</p>
+            <p class="copyright">© 2024 Swegga Fashion – King👑Legend</p>
         </div>
     </div>
-    <script src="code.js"></script>
+    <script src="script/code.js"></script>
 </body>
 </html>
